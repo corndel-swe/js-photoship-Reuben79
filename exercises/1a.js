@@ -10,4 +10,7 @@
  */
 export function firstAddLast(nums) {
   // TODO
+  const firstElement = nums[0]
+  const lastElement = nums[nums.length - 1]
+  return firstElement + lastElement    
 }

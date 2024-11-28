@@ -11,4 +11,8 @@
  */
 export function getMiddle(arr) {
   // TODO
+if (arr.length <= 2) {
+  return []
+}
+return arr.slice(1, arr.length - 1)
 }
