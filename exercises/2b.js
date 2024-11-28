@@ -12,4 +12,6 @@
  */
 export function convertFilesizes(arr) {
   // TODO
+
+  return arr.map(size => size / 1000)
 }

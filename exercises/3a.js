@@ -11,4 +11,8 @@
  */
 export function nameTag(name) {
   // TODO
+
+  return `Hello, my name is ${name.toUpperCase()}!`
+  
+ 
 }
