@@ -10,4 +10,11 @@
  */
 export function arrayRotate(arr) {
   // TODO
+
+  if (arr.length === 0) {
+    return arr
+  }
+  const lastElement =arr.pop()
+  arr.unshift(lastElement)
+  return arr
 }
